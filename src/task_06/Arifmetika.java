@@ -6,15 +6,15 @@ public class Arifmetika
     public static void main(String[]srgs){
 
         Scanner in=new Scanner(System.in);
-        double a,b,c;
+        double x,y,z;
         System.out.println("Введите число X ");
-        a=in.nextDouble();
+        x=in.nextDouble();
         System.out.println("Введите число Y ");
-        b=in.nextDouble();
+        y=in.nextDouble();
         System.out.println("Введите число Z");
-        c=in.nextDouble();
+        z=in.nextDouble();
 
-        double srednee= (a+b+c)/3;
+        double srednee= (x+y+z)/3;
         System.out.println("Среднее арифметическое= " + srednee);
     }
 
