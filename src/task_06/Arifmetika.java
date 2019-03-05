@@ -18,6 +18,9 @@ public class Arifmetika
         int delenie = (int) (srednee/2);
         System.out.println("Среднее арифметическое= " + srednee);
         System.out.println("Деление = " + delenie);
+        if (delenie == 3) {
+            System.out.println("Программа выполнена корректно");
+        }
     }
 }
 
