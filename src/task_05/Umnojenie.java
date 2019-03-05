@@ -6,10 +6,9 @@ public class Umnojenie
         Scanner sc = new Scanner(System.in);
         System.out.println("Введите число:");
         int a = sc.nextInt();
-        int M1 = a*2;
         sc.close();
         System.out.println(a+"*1="+ 1*a);
-        System.out.println(a+"*2="+ 2*a  );
+        System.out.println(a+"*2="+ 2*a);
         System.out.println(a+"*3="+ 3*a);
         System.out.println(a+"*4="+ 4*a);
         System.out.println(a+"*5="+ 5*a);
