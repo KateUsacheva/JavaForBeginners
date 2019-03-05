@@ -15,9 +15,10 @@ public class Arifmetika
         z=in.nextDouble();
 
         double srednee= (x+y+z)/3;
+        int delenie = (int) (srednee/2);
         System.out.println("Среднее арифметическое= " + srednee);
+        System.out.println("Деление = " + delenie);
     }
-
 }
 
 
