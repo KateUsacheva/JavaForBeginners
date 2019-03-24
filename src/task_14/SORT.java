@@ -16,8 +16,9 @@ public class SORT
         String S = scan.next();
         Integer X = new Integer(S);
         double Y = X;
-        System.out.println(X);
-        System.out.println(Y);
+            System.out.println(S);
+            System.out.println(X);
+            System.out.println(Y);
         }catch (NumberFormatException e) {
             System.err.println("Неверный формат строки!");
         }
