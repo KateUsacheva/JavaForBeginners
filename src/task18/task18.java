@@ -24,17 +24,15 @@ public class task18 {
         int CS2=0;
         try (FileWriter fw = new FileWriter("D:\\task18.txt",false) )
         {
-
             do {
+                 CS2++;
                 System.out.print(": ");
                 S= br.readLine();
-                if (S.compareTo("stop")==0) break; /// здесь должно быть сравнение строк было введено
+                if (CS2>CS) break; /// здесь должно быть сравнение строк было введено
                 S=S + "\r\n";
-                CS2++;
                 fw.write(S);
             }
-            while (S.compareTo("stop") !=0);
-
+            while (CS2<=CS);
         } catch (IOException exc)
         {
             System.out.println("Неверное количество строк");
